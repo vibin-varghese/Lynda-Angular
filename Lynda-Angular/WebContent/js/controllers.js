@@ -8,7 +8,9 @@ artistControllers.controller('ListController', ['$scope', '$http', function ($sc
   });
 }]);
 
-//Details Controller, includes navigation
+//Details Controller, includes navigation and logic
+//Vibin is testing git functionality AND IS A SUPER SUCCESS
+//OK TAKE CARE
 //Need to check for defects
 artistControllers.controller('DetailsController', ['$scope', '$http', '$routeParams', function ($scope, $http, $routeParams) {
 	  $http.get('js/data.json').success(function (data) {
