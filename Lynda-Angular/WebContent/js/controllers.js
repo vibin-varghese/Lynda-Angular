@@ -8,7 +8,7 @@ artistControllers.controller('ListController', ['$scope', '$http', function ($sc
   });
 }]);
 
-//Details Controller
+//Details Controller, includes navigation
 artistControllers.controller('DetailsController', ['$scope', '$http', '$routeParams', function ($scope, $http, $routeParams) {
 	  $http.get('js/data.json').success(function (data) {
 
